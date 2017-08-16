@@ -1,0 +1,97 @@
+.custom-jumbotron {
+    background-image: url("img/home-page-jumbotron-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+}
+
+.custom-jumbotron-webdev {
+    background-image: url("img/web-development-mariposa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 110px 0rem 150px;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+.rectangle-navbar {
+    padding-top: 1.0rem !important;
+    padding-bottom: 1.0rem !important;
+    color: #ffffff !important;
+}
+
+.rectangle-header {
+    background-color: #222222;
+}
+
+.navbar-transparent .navbar-toggler {
+    background-image: url("img/mobile-menu.png");
+    background-size: contain;
+}
+
+.custom-three-icon-section {
+    padding: 22px 1rem 4rem;
+}
+
+.custom-three-icon-CTA-section {
+    padding: 0px 1rem 4rem;
+}
+
+.custom-icon-section-title {
+    font-weight: 100;
+    padding: 7% 0% 4% 0%;
+}
+
+.custom-icon-section-text {
+    font-size: 16px;
+    text-align: left;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.custom-callout-cta {
+    width: 0%;
+}
+
+.custom-top-text {
+    font-size: 25px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 100;
+}
+
+.custom-mariposa-highlight {
+    color: #d2374c;
+}
+
+.custom-home-bottom-background {
+    background-position-y: 1px;
+}
+
+.custom-client-logo-section {
+    background-color: #e2e2e2;
+}
+
+.custom-right-box-webdev {
+    background-color: #ffffff;
+    color: #000000 !important;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.custom-stat-card-section {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.sixteen-text {
+    font-size: 16px;
+}
+
+.eighteen-text {
+    font-size: 18px;
+}

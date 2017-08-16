@@ -1,0 +1,122 @@
+
+{% include_relative header-layouts/inline-rectangle-header-queries.css %}
+
+/* Everything under 320px and 320px */
+@media screen and (max-width: 20em) {
+    .logo-top {
+        width: 130px;
+    }
+    .rectangle-navbar {
+        padding-top: 0rem !important;
+    }
+    .rectangle-header-toggler {
+        padding: 23px 10% 5px 10%;
+    }
+    .custom-jumbotron {
+    background-position-y: 0px;
+}
+    .custom-jumbotron-h1 {
+        font-size: 40px;
+    }
+    .custom-callout-content {
+        display: block;
+    }
+    .custom-callout-cta {
+        width: 100%;
+        display: block
+}
+    .rectangle-header {
+        background-color: #ffffff;
+    }
+}
+  
+/* 321px to 600px */
+@media screen and (min-width: 20.1em) and (max-width: 37.5em) {
+    .logo-top {
+        width: 150px;
+    }
+    .rectangle-navbar {
+        padding-top: .6rem !important;
+    }
+    .rectangle-header-toggler {
+        padding: 28px 10% 5px 10%;
+    }
+    .custom-jumbotron {
+    background-position-y: 0px;
+}
+    .custom-jumbotron-h1 {
+        font-size: 40px;
+    }
+    .custom-callout-content {
+        display: block;
+    }
+    .custom-callout-cta {
+        width: 100%;
+        display: block
+}
+     .rectangle-header {
+        background-color: #ffffff;
+    }
+}
+
+/* 601px to 1008px */
+@media screen and (min-width: 37.6em) and (max-width: 63em) {
+    .logo-top {
+        width: 150px;
+    }
+    .rectangle-navbar {
+        padding-top: .6rem !important;
+    }
+    .rectangle-header-toggler {
+        padding: 28px 10% 5px 10%;
+    }
+    .navbar-padded {
+        padding-top: 2.5px;
+    }
+     .custom-callout-content {
+        display: block;
+    }
+    .custom-callout-cta {
+        width: 100%;
+        display: block
+}
+     .rectangle-header {
+        background-color: #ffffff;
+    }
+}
+
+/* 1009px to 1280px */
+@media screen and (min-width: 63.1em) and (max-width: 80em) {
+    .logo-top {
+        width: 47%;
+    }
+    .rectangle-navbar {
+        padding-top: .46rem !important;
+    }
+     .rectangle-header {
+        background-color: #ffffff;
+    }
+}
+
+/* Everything over 1281px  */
+@media screen and (min-width: 80.05em) {
+    .rectangle-header {
+        padding: 105px 0% 0% 0%;
+        background-color: #ffffff;
+    }
+    .logo-top {
+        width: 60%;
+        margin-left: -15%;
+    }
+    .rectangle-navbar {
+        padding-top: .6rem !important;
+    }
+}
+
+/* 768px to 1009px */
+@media screen and (min-width: 48em) and (max-width: 63.1em) {
+    .rectangle-header {
+        padding: 87px 0% 0% 0%;
+        background-color: #ffffff;
+    }
+}
