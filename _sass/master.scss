@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: 'Times-New-Roman', serif !default;
+$header-font-family: 'Helvetica', sans-serif !default;
+$base-font-size:   18px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #000000 !default;
+$background-color: #ffffff !default;
+$header-color:     #ffffff !default;
+$mobile-menu-color: #ffffff !default;
+$mobile-menu-text-color: #000000 !default;
+$footer-color:     #ffffff !default;
+$brand-color:      #ffffff !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+// Width of the content area
+$content-width:    1920px !default;
+
+$on-palm:          0px !default;
+$on-tablet:          600px !default;
+$on-laptop:        800px !default;
+$on-large-laptop:   1280px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query-min($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+@mixin media-query-max($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting",
+  "minima/custom-header",
+  "minima/responsive-queries.scss";
+;
+
+// global custom bootstrap
+
+.custom-jumbotron-button {
+  border-color: #009933;
+  background-color: #009933;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.custom-jumbotron-button:hover {
+  border-color: #009933;
+  background-color: #009955;
+  color: #ffffff;
+}
+
+.custom-container-size-button {
+    margin: 50px auto 50px auto;
+    border-color: #009933;
+    padding: 3%;
+    width: 80%;
+    color: #000000;
+    font-size: 22px;
+}
+
+.custom-container-size-button:hover {
+  border-color: #009955;
+  background-color: #009955;
+  color: #ffffff;
+}
+
+.custom-jumbotron {
+  background-image: url("/demo2/assets/img/header-background-test.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.custom-contact-phone {
+  font-size: 10.5rem !important;
+  color: #009933;
+}
+
+.custom-dashed-box {
+  border-style: dashed;
+  border-color: #009933;
+  border-width: 2px;
+}
+
+.custom-bottom-phone-number {
+  padding: 10% 0% 10% 0%;
+}
+
+.custom-about-us-picture {
+  background-image: url("/demo2/assets/img/blank-profile-picture-973460.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 15% 0% 15% 0%;
+}
+
+.custom-about-us-text {
+  padding: 5% 0% 5% 0%;
+}

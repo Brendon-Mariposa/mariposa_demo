@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+$break0:   0px !default;
+$break1:   321px !default;
+$break2:   601px !default;
+$break3:   1009px !default;
+$break4:   1281px !default;
+
+@include media-query-min($break0) {
+  .desktop-phone-number {
+    display: none;
+  }
+  .site-nav {
+    top: 27%;
+    right: 20px;
+    z-index: 999;
+    position: absolute;
+  }
+  .mobile-menu-text {
+    color: #000000;
+    width: 50px;
+    font-size: 18px;
+    right: 58px;
+    top: 37%;
+    position: absolute;
+  }
+  .site-nav label[for="nav-trigger"] {
+    width: 36px;
+    height: 30px;
+  }
+  .site-header {
+    padding: 3% 0% 3% 0%;
+   }
+  .logo-top {
+     width: 120px;
+   }
+ }
+
+@include media-query-min($break1) {
+  .site-nav {
+    top: 27%;
+    right: 20px;
+  }
+  .site-header {
+    padding: 1% 0% 1.5% 0%;
+   }
+  .logo-top {
+     width: 120px;
+   }
+ }
+
+@include media-query-min($break2) {
+  .site-nav {
+    top: 12%;
+    right: 11%;
+    font-size: 16px;
+  }
+  .site-nav label[for="nav-trigger"] {
+    display: none;
+  }
+  .mobile-menu-text {
+    display: none;
+  }
+  .site-header {
+    padding: 1% 0% 1.5% 0%;
+   }
+  .logo-top {
+     width: 120px;
+   }
+ }
+
+@include media-query-min($break3) {
+  .desktop-phone-number {
+    display: block;
+    font-size: 30px;
+    color: #000000;
+    display: block;
+    right: 26%;
+    top: 3px;
+    position: absolute;
+  }
+  .site-nav {
+    top: 37%;
+    right: 10%;
+    font-size: 25px;
+  }
+  .site-header {
+    padding: 1% 5% 1.5% 5%;
+  }
+  .logo-top {
+     width: 120px;
+   }
+ }
+
+ @include media-query-min($break4) {
+   .site-header {
+    padding: 1% 5% 1.5% 5%;
+  }
+  .site-nav {
+    top: 37%;
+    right: 13%;
+    font-size: 25px;
+  }
+  .logo-top {
+     width: 120px;
+   }
+ }
+
