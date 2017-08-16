@@ -1,0 +1,127 @@
+/* Dimensions for logo: 762x1024
+   Dimensions for mobile menu: 862x278  */
+
+/* Everything under 320px and 320px */
+@media screen and (max-width: 20em) {
+    .logo-top {
+        width: 40px;
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    .rectangle-header {
+        padding: 72px 0% 0% 0%;
+    }
+    .rectangle-header-toggler {
+        padding: 18px 10% 5px 10%;
+    }
+    .rectangle-navbar {
+        padding-top: .4rem !important;
+    }
+}
+  
+/* 321px to 600px */
+@media screen and (min-width: 20.1em) and (max-width: 37.5em) {
+    .logo-top {
+        width: 45px;
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    .rectangle-header {
+        padding: 85px 0% 0% 0%;
+    }
+    .rectangle-header-toggler {
+    padding: 18px 10% 5px 10%;
+    }
+    .rectangle-navbar {
+        padding-top: 16px !important;
+    }
+    .navbar-padded {
+        padding-top: 0px;
+    }
+}
+
+/* 601px to 1008px */
+@media screen and (min-width: 37.6em) and (max-width: 63em) {
+   .logo-top {
+        width: 60px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+    .rectangle-header {
+        padding: 85px 0% 0% 0%;
+    }
+    .rectangle-header-toggler {
+    padding: 18px 10% 5px 10%;
+    }
+    .rectangle-navbar {
+        padding-top: 0rem !important;
+    }
+    .navbar-padded {
+        padding-top: 15px;
+    }
+}
+
+/* 1009px to 1280px */
+@media screen and (min-width: 63.1em) and (max-width: 80em) {
+    .logo-top {
+        width: 47px;
+        margin-top: -8px;
+        margin-left: 10px;
+    }
+    .rectangle-header {
+        padding: 78px 0% 0% 0%;
+    }
+    .rectangle-header-toggler {
+    padding: 0% 5% 3% 5%;
+    }
+    .rectangle-navbar {
+        padding-top: .6rem !important;
+    }
+    .navbar-padded {
+        padding-top: 0px;
+    }
+}
+
+/* Everything over 1281px  */
+@media screen and (min-width: 80.05em) {
+    .logo-top {
+        width: 47px;
+        margin-top: -8px;
+        margin-left: 10px;
+    }
+    .rectangle-header {
+        padding: 78px 0% 0% 0%;
+    }
+    .rectangle-header-toggler {
+    padding: 0% 5% 3% 5%;
+    }
+    .rectangle-navbar {
+        padding-top: .6rem !important;
+    }
+    .navbar-padded {
+        padding-top: 0px;
+    }
+}
+
+/* Special media query compatibility */
+
+/* 768px to 1009px */
+@media screen and (min-width: 48em) and (max-width: 63.1em) {
+    .logo-top {
+        width: 60px;
+        margin-top: -10px;
+        margin-left: 0px;
+    }
+    .rectangle-header {
+        padding: 90px 0% 0% 0%;
+    }
+    .rectangle-header-toggler {
+    padding: 0% 5% 3% 5%;
+    }
+    .rectangle-navbar {
+        padding-top: .6rem !important;
+    }
+    .navbar-padded {
+        padding-top: 0px;
+    }
+}
