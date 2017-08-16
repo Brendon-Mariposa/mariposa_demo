@@ -1,0 +1,80 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+{% include toolkit-startup.min.css %}
+
+{% include application-startup.css %}
+
+{% include custom-mariposa-global.css %}
+
+{% include custom-mariposa-queries.css %}
+
+* {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+h1,h2,h3,h4,h5,h6, a, button {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.btn {
+    background-color: #d2374c;
+    border-color: #d2374c;
+}
+
+.btn:hover {
+    background-color: #b62d40;
+    cursor: pointer;
+    border-color: #b62d40;
+    transition: all .2s ease-in-out;
+}
+
+.btn-lg {
+    background-color: #d2374c;
+    border-color: #d2374c;
+}
+
+.btn-lg:hover {
+    background-color: #b62d40;
+    cursor: pointer;
+    border-color: #b62d40;
+    transition: all .2s ease-in-out;
+}
+
+.callout-secondary {
+    background-color: #ffffff;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+button:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+.carousel-item.active {
+    display: block !important;
+}
+ 
+.carousel-webdev {
+    height: 250px;
+    margin: 0 auto;
+}
+
+.app-code {
+    padding: 0px;
+    line-height: .3;
+    overflow: hidden;
+}
+
+.carousel-control-prev {
+    left: -33px;
+    font-size: 50px;
+}
+
+.carousel-control-next {
+    right: -33px;
+    font-size: 50px;
+}
